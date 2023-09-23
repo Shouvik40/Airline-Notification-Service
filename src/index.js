@@ -19,14 +19,4 @@ app.use("/api", apiRoutes);
 
 app.listen(ServerConfig.PORT, async () => {
   console.log(`Successfully started the server on PORT : ${ServerConfig.PORT}`);
-  // try {
-  //   const response = await mailsender.sendMail({
-  //     from: ServerConfig.GMAIL_EMAIL,
-  //     to: "cetel40762@armablog.com",
-  //     text: "Yes,it is working",
-  //   });
-  //   console.log(response);
-  // } catch (error) {
-  //   console.log(error);
-  // }
 });
